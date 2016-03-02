@@ -3,5 +3,6 @@ sudo: required
 language: go
 
 script:
+  - hostname
   - make
 
