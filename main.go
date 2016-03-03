@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("hellworld "+version)
+	fmt.Println("hell, world!!!!")
 }
