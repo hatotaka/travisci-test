@@ -1,8 +1,7 @@
-#sudo: required
-
 language: go
+env:
+ - secure: "G1t5Tnuy6AiWgNGm3+My6tM/OMdIidUifeI17h0+/1XSnx4sVZucnombe56KBHp4jKR0XKmM1WrgQrNlFgL53kDDATXEYCDVxoK06avGVP6uhTQEeN6bWAo4AhHPlAttw55pQuH/vDlEvVBNgUghp5mUZc3/BNyta+DYwtvCF5lRvkVMfjpxlvbT+/ryGEUgITrz1sFeQY6lpqc7nmNz7iGbPbKYvlAK8Q8RABSmZ3zOzkstKa/SA+zmQTXoLND4CvS5/SeJWT/y5aRJGLS71h1bbPJXPFWqREGlifJpCjS56yEWovjAT3btj70N/6jVdH4+4ksMTuAOBAjVpdx3QtGG/Drv4c2anoxzccd81GVOAP8S0qjERnrx97j4CNbN46++t+vazjrWrY6hjWtqFvqbZEu2RhHWYvg6FWvkSgZIjKQtvYalf6Z4miyw/7XiNTN0JtJfXl42pfiWdejNmhvjO2KUdA04YD1JZk0zor6KUF1VlJekegPKUmUMBDK0d+YARWqCPGBg0eP5yZxQop9B8KBNWm/FfVPQv8HhQM6Fwrj0Y8byZSxpJ3X+6wFD/XImF3izbd8BmzftDbl6r6OqJvuK1IpRhZ+LaWv5mWsTuoPBRfajkDoVKZ/DaefWJuA/jKXxbzbKDT7H7eT1sZZ7eq1Uf51Z0qhEkE9YEow="
 
 script:
-  - hostname
-  - make
+  - env
 
